@@ -4,7 +4,7 @@ class Student
   #  with DB[:conn]  
   attr_accessor :name, :grade
   
-  def initialize(name, grade, id=nil)
+  def initialize(name, grade, id)
     @name = name
     @grade = grade
     @id = id
